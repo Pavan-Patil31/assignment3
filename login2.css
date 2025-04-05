@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #a18cd1, #fbc2eb);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: white;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 30px;
+  }
+  
+  .login-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .form-section {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .form-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .account-text {
+    margin-bottom: 25px;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .account-text a {
+    color: #6c63ff;
+    text-decoration: none;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="email"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .extra-options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin: 10px 0 20px;
+  }
+  
+  .extra-options a {
+    text-decoration: none;
+    color: #6c63ff;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .divider {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #999;
+    font-size: 13px;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .google-btn,
+  .facebook-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .google-btn {
+    background-color: #db4437;
+  }
+  
+  .facebook-btn {
+    background-color: #4267B2;
+  }
+  
+  .image-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  

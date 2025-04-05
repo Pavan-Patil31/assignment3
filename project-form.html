@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project Management</title>
+  <link rel="stylesheet" href="project-form.css">
+</head>
+<body>
+  <h2 class="main-heading"><u>Project Management</u></h2>
+  <div class="form-container">
+    <form>
+      <label>Project Name</label>
+      <input type="text" placeholder="project name" required>
+
+      <label>Assigned to</label>
+      <select>
+        <option>Er Merry Petision</option>
+        <option>John Doe</option>
+        <option>Jane Smith</option>
+      </select>
+
+      <label>Start Date</label>
+      <input type="date" required>
+
+      <label>End Date</label>
+      <input type="date" required>
+
+      <label>Priority</label>
+      <div class="priority-options">
+        <label><input type="radio" name="priority" value="high"> High</label>
+        <label><input type="radio" name="priority" value="average"> Average</label>
+        <label><input type="radio" name="priority" value="low"> Low</label>
+      </div>
+
+      <label>Description</label>
+      <textarea rows="3" placeholder="Enter description"></textarea>
+
+      <div class="buttons">
+        <button type="submit" class="submit-btn">Submit</button>
+        <button type="reset" class="clear-btn">Clear</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
